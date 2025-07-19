@@ -1,0 +1,112 @@
+
+
+/* Light mode default */
+body {
+  margin: 0;
+  padding: 0;
+  font-family:rgb(243, 243, 243)erif;
+  background: #ffffff;
+  color: #0b8ba8;
+}
+
+
+.App {
+  text-align: center;
+  margin-top: -25px;
+  font-family: sans-serif;
+  background: url('https://e0.pxfuel.com/wallpapers/581/158/desktop-wallpaper-rainy-weather.jpg') no-repeat center center/cover;
+  transition: background 0.3s ease;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #e3e1e1;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: rgb(248, 242, 242);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+
+
+
+
+.weather-box {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 20px;
+  background-color: #f1f2f6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-box img {
+  width: 100px;
+}
+
+.forecast-container {
+  margin-top: 30px;
+}
+
+.forecast-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.forecast-card {
+  background: #eeeff0;
+  padding: 15px;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.forecast-card img {
+  width: 70px;
+}
+
+
+
+/* 🌗 Dark Mode */
+.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark input {
+  background: #2c2c2c;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark button {
+  background-color: #6c5ce7;
+}
+
+.dark button:hover {
+  background-color: #5a4dcf;
+}
+
+.dark .weather-box,
+.dark .forecast-card {
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
