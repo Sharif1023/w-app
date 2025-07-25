@@ -3,7 +3,7 @@ import React from "react";
 const Forecast = ({ data, lang }) => {
   // বাংলা ও ইংরেজি অনুবাদ টেক্সট
   const t = {
-    forecastTitle: lang === "bn" ? "📅 ৭ দিনের পূর্বাভাস" : "📅 7-Day Forecast",
+    forecastTitle: lang === "bn" ? "📅 ৫ দিনের পূর্বাভাস" : "📅 5-Day Forecast",
     temp: lang === "bn" ? "তাপমাত্রা" : "Temp",
     unit: "°C",
   };
